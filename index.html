@@ -5,8 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-    <script src=""></script>
+    <h1>Last movements on pocketbase</h1>
+    <table style="border: solid; ">
+        <thead>
+        <tr>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Type</th>
+        </tr>
+        </thead>
+        <tbody id="tbodyPocket">
+        </tbody>
+      </table>
+  
+    
+    <h1>Last movements on jsonServer</h1>
+    <table style="border: solid; ">
+        <thead>
+        <tr>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Type</th>
+        </tr>
+        </thead>
+        <tbody id="tbodyRender">
+        </tbody>
+      </table>
+      
+    <script src="./src/scripts/index.js" type="module"></script>
 </body>
 </html>
